@@ -599,6 +599,13 @@ h3 { font-size: clamp(1.05rem, 2vw, 1.25rem); }
   opacity: 0.85;
 }
 
+.ticker-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .ticker-item svg {
   flex-shrink: 0;
   opacity: 0.7;
