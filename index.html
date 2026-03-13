@@ -19,6 +19,7 @@
       <ul class="nav-links" id="navLinks" role="list">
         <li><a href="#what-i-build" class="nav-link">Services</a></li>
         <li><a href="#case-studies" class="nav-link">Work</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#pricing" class="nav-link">Pricing</a></li>
         <li>
@@ -311,7 +312,7 @@
   <!-- CASE STUDIES -->
   <section class="section case-studies" id="case-studies" aria-label="Case studies">
     <div class="container">
-      <h2 class="section-heading">What has been built</h2>
+      <h2 class="section-heading">Featured Work</h2>
       <p class="section-sub">Click any project to see the problem, what was built, and what changed.</p>
       <div class="case-cards">
 
@@ -330,6 +331,12 @@
                 <span>Workflow screenshot coming soon</span>
               </div>
             </div>
+            <a href="#" class="case-video-link" data-case-video="email-agent" aria-label="Watch Email AI Agent workflow walkthrough">
+              <span class="play-btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </span>
+              Watch the walkthrough
+            </a>
           </div>
           <div class="case-preview">
             <div class="case-tag">E-Commerce</div>
@@ -362,6 +369,12 @@
                 <span>Workflow screenshot coming soon</span>
               </div>
             </div>
+            <a href="#" class="case-video-link" data-case-video="ad-responder" aria-label="Watch Local Ad Responder workflow walkthrough">
+              <span class="play-btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </span>
+              Watch the walkthrough
+            </a>
           </div>
           <div class="case-preview">
             <div class="case-tag">Service Business</div>
@@ -403,6 +416,53 @@
     </div>
   </section>
 
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials" id="testimonials" aria-label="Testimonials">
+    <div class="container">
+      <h2 class="section-heading">What clients say</h2>
+      <p class="section-sub">Real feedback from people I have built for.</p>
+      <div class="testimonial-wrap">
+
+        <!-- VIDEO TESTIMONIAL — replace src with your YouTube or Loom embed URL -->
+        <div class="testimonial-video-block">
+          <div class="testimonial-video-frame">
+            <!-- Add video: set data-src to your embed URL e.g. https://www.loom.com/embed/YOUR_ID -->
+            <div class="testimonial-video-placeholder" id="testimonialVideoPlaceholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <p>Video testimonial</p>
+              <span>Coming soon</span>
+            </div>
+            <iframe
+              id="testimonialVideo"
+              class="testimonial-iframe"
+              src=""
+              data-src=""
+              frameborder="0"
+              allowfullscreen
+              allow="autoplay; fullscreen"
+              title="Client video testimonial"
+              hidden
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- TEXT TESTIMONIAL -->
+        <div class="testimonial-card">
+          <div class="testimonial-quote-mark" aria-hidden="true">"</div>
+          <blockquote class="testimonial-quote">
+            <!-- Replace with actual testimonial text -->
+            Add your client's testimonial here.
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Client Name</div>
+            <div class="testimonial-role">Role, Company</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- SKILLS -->
   <section class="section skills" id="skills" aria-label="Skills">
     <div class="container">
@@ -415,141 +475,9 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
           </div>
           <div class="skill-info">
-            <div class="skill-name">Workflow Automation Design</div>
-            <div class="skill-platform">n8n / Zapier / Make</div>
-            <p class="skill-desc">Design and build multi-step automation workflows that connect your apps, trigger on events, and run without manual input.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 8v4l3 3"/><path d="M18 2v6h6"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">AI Agent Development</div>
-            <div class="skill-platform">LLMs + Tools</div>
-            <p class="skill-desc">Build AI agents that reason, decide, and act, using models like Claude and GPT connected to real tools and APIs.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">API Integration &amp; Webhooks</div>
-            <div class="skill-platform">REST APIs / Webhooks</div>
-            <p class="skill-desc">Connect any two systems using REST APIs and webhooks, even when there is no native integration available.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1" fill="currentColor"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">AI-Powered Lead Qualification &amp; Routing</div>
-            <div class="skill-platform">AI Scoring / CRM Logic</div>
-            <p class="skill-desc">Score and route inbound leads automatically based on what they say, so the right leads reach the right people fast.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">CRM Automation</div>
-            <div class="skill-platform">HubSpot / Airtable / Supabase / Sheets</div>
-            <p class="skill-desc">Keep your CRM accurate and up to date without manual data entry, across every stage of your pipeline.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">Chatbot &amp; Conversational AI</div>
-            <div class="skill-platform">WhatsApp / Slack / Web</div>
-            <p class="skill-desc">Build AI-driven chat flows that answer questions and capture information automatically, without a human in the loop.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">Document Processing &amp; Data Extraction</div>
-            <div class="skill-platform">OCR + AI</div>
-            <p class="skill-desc">Extract structured data from invoices, forms, and PDFs using OCR and AI, and route it wherever it needs to go.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">Email Automation &amp; AI Email Handling</div>
-            <div class="skill-platform">Gmail API / SMTP / AI</div>
-            <p class="skill-desc">Classify, prioritize, draft, and send emails automatically based on content, without manual triage.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">AI Content Repurposing Automation</div>
-            <div class="skill-platform">LLMs / Multi-channel</div>
-            <p class="skill-desc">Take a long-form piece of content and automatically generate social posts, summaries, or other formats from it.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">Scheduling &amp; Calendar Automation</div>
-            <div class="skill-platform">Calendly / Google Calendar</div>
-            <p class="skill-desc">Automate booking, reminders, and calendar management so meetings get confirmed and followed up without effort.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">Database Design &amp; Automation</div>
-            <div class="skill-platform">Supabase / PostgreSQL</div>
-            <p class="skill-desc">Design and connect databases that store your business data and feed directly into your automation workflows.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">Error Handling, Logging &amp; Monitoring</div>
-            <div class="skill-platform">n8n / Custom Alerts</div>
-            <p class="skill-desc">Build systems that catch failures, log what happened, and alert you before a silent error becomes a bigger problem.</p>
-          </div>
-        </div>
-
-        <div class="skill-card" role="listitem">
-          <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-          </div>
-          <div class="skill-info">
-            <div class="skill-name">Prompt Engineering for Business Workflows</div>
-            <div class="skill-platform">Claude / GPT / Production AI</div>
-            <p class="skill-desc">Write prompts that get consistent, reliable AI output inside production workflows, not just good demo results.</p>
+            <div class="skill-name">Workflow Automation</div>
+            <div class="skill-platform">n8n / Make / Zapier</div>
+            <p class="skill-desc">Design and build multi-step workflows that connect apps, trigger on events, and run without manual input. Includes scheduling, error handling, logging, and monitoring.</p>
           </div>
         </div>
 
@@ -558,20 +486,53 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
           </div>
           <div class="skill-info">
-            <div class="skill-name">AI-Driven Data Enrichment</div>
-            <div class="skill-platform">AI + Third-Party APIs</div>
-            <p class="skill-desc">Automatically pull additional context on leads, companies, or records using AI and third-party data sources.</p>
+            <div class="skill-name">AI Agent &amp; LLM Development</div>
+            <div class="skill-platform">Claude / GPT / RAG / Prompt Engineering</div>
+            <p class="skill-desc">Build agents that reason and act using LLMs with real tools, RAG pipelines, and prompts engineered for consistent production output.</p>
           </div>
         </div>
 
         <div class="skill-card" role="listitem">
           <div class="skill-icon" aria-hidden="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           </div>
           <div class="skill-info">
-            <div class="skill-name">Voice AI</div>
-            <div class="skill-platform">Inbound Voice / Call Automation</div>
-            <p class="skill-desc">Build voice-powered automation that handles inbound calls, answers questions, and captures information without a human on the line.</p>
+            <div class="skill-name">API Integration &amp; Data Pipelines</div>
+            <div class="skill-platform">REST APIs / Webhooks / OCR + AI</div>
+            <p class="skill-desc">Connect any two systems, extract structured data from documents using OCR and AI, and enrich records from third-party sources automatically.</p>
+          </div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1" fill="currentColor"/></svg>
+          </div>
+          <div class="skill-info">
+            <div class="skill-name">Lead Systems &amp; CRM Automation</div>
+            <div class="skill-platform">HubSpot / Airtable / GoHighLevel / Supabase</div>
+            <p class="skill-desc">Capture, qualify, and route inbound leads automatically. Keep your CRM accurate without manual entry at every pipeline stage.</p>
+          </div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div class="skill-info">
+            <div class="skill-name">Email, Chat &amp; Voice AI</div>
+            <div class="skill-platform">Gmail API / WhatsApp / Chatbots / Voice</div>
+            <p class="skill-desc">Handle inbound emails with AI, run conversational bots across channels, and automate voice call handling without a human on the line.</p>
+          </div>
+        </div>
+
+        <div class="skill-card" role="listitem">
+          <div class="skill-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <div class="skill-info">
+            <div class="skill-name">Database, Scheduling &amp; Ops</div>
+            <div class="skill-platform">Supabase / PostgreSQL / Calendar APIs</div>
+            <p class="skill-desc">Design databases that feed directly into workflows, automate booking and reminders, and build reliable content repurposing pipelines.</p>
           </div>
         </div>
 

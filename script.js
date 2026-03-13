@@ -84,7 +84,9 @@ if (!prefersReducedMotion) {
     '.pricing-card',
     '.booking-card',
     '.contact-form',
-    '.contact-alt'
+    '.contact-alt',
+    '.testimonial-card',
+    '.testimonial-video-block'
   ].join(', '));
 
   fadeTargets.forEach(el => {
@@ -230,6 +232,11 @@ function closeModal() {
   modal.hidden = true;
   document.body.style.overflow = '';
 }
+
+// Prevent video links from triggering modal open
+document.querySelectorAll('.case-video-link').forEach(link => {
+  link.addEventListener('click', e => e.stopPropagation());
+});
 
 // Open on card click / keyboard
 document.querySelectorAll('.case-card[data-case]').forEach(card => {
