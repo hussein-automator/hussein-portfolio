@@ -85,8 +85,8 @@ if (!prefersReducedMotion) {
     '.booking-card',
     '.contact-form',
     '.contact-alt',
-    '.testimonial-card',
-    '.testimonial-video-block'
+    '.testimonial-video-block',
+    '.testimonial-reviews'
   ].join(', '));
 
   fadeTargets.forEach(el => {

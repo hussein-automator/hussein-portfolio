@@ -1414,56 +1414,28 @@ h3 { font-size: clamp(1.05rem, 2vw, 1.25rem); }
   border: none;
 }
 
-.testimonial-card {
-  background: var(--card-bg);
+.testimonial-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.testimonial-review-card {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 2.25rem 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.testimonial-quote-mark {
-  font-family: 'Syne', sans-serif;
-  font-size: 5rem;
-  line-height: 0.6;
-  color: var(--accent);
-  opacity: 0.25;
-  font-weight: 700;
-  user-select: none;
+.testimonial-review-card:hover {
+  border-color: var(--border-strong);
+  box-shadow: 0 4px 24px rgba(0, 212, 255, 0.08);
 }
 
-.testimonial-quote {
-  font-size: 1.05rem;
-  color: var(--white);
-  line-height: 1.8;
-  font-style: italic;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-.testimonial-author {
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--border);
-}
-
-.testimonial-name {
-  font-family: 'Syne', sans-serif;
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--white);
-}
-
-.testimonial-role {
-  font-size: 0.82rem;
-  color: var(--accent);
-  opacity: 0.85;
+.testimonial-review-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* ─── HERO GREETING ─────────────────────────────────────────── */
